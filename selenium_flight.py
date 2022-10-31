@@ -14,8 +14,6 @@ browser.get(url)
 browser.find_element_by_css_selector(".tabContent_option__2y4c6.select_Date__1aF7Y").click()
 # browser.find_element_by_link_text("가는 날").click()
 
-# 어느새 길어진 그림자를 따라서 땅거미 진 어둠속을 그대와 걷고 있네요 손을 마주 잡고 그 언제까지라도 함께 있는것만으로 눈물이 나는 걸요
-
 # 이번달 27일, 28일 선택
 browser.find_elements_by_css_selector(".sc-evZas.dDVwEk.num")[26].click()
 browser.find_elements_by_css_selector(".sc-evZas.dDVwEk.num")[27].click()
